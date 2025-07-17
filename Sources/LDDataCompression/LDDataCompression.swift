@@ -1,5 +1,5 @@
 ///
-///  DataCompression
+///  LDDataCompression
 ///
 ///  A libcompression wrapper as an extension for the `Data` type
 ///  (GZIP, ZLIB, LZFSE, LZMA, LZ4, deflate, RFC-1950, RFC-1951, RFC-1952)

@@ -3,19 +3,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "DataCompression",
+    name: "LDDataCompression",
     platforms: [.macOS(.v10_11), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)],
     products: [
         .library(
-            name: "DataCompression",
-            targets: ["DataCompression"]),
+            name: "LDDataCompression",
+            targets: ["LDDataCompression"]),
     ],
     targets: [
         .target(
-            name: "DataCompression",
+            name: "LDDataCompression",
             dependencies: []),
         .testTarget(
-            name: "DataCompressionTests",
-            dependencies: ["DataCompression"]),
+            name: "LDDataCompressionTests",
+            dependencies: ["LDDataCompression"]),
     ]
 )

@@ -1,7 +1,7 @@
 
 import XCTest
 
-@testable import DataCompression
+@testable import LDDataCompression
 
 
 extension Data
